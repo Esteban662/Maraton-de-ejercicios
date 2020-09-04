@@ -279,11 +279,6 @@ let finalizarEj10 = document.querySelector(".ej10-finalizar")
 let divResultadoEj10 = document.querySelector("div.ej10-resultado")
 let arrEj10 = []
 let usuariosEj10 = localStorage.getItem("usuarios")
-let validNombreEj10 = document.querySelector(".validNombreEj10")
-let validEmailEj10 = document.querySelector(".validEmailEj10")
-let validNumberEj10 = document.querySelector(".validNumberEj10")
-let validHorarioEj10 = document.querySelector(".validHorarioEj10")
-let validProductoEj10 = document.querySelector(".validProductoEj10")
 
 
 guardarEj10.addEventListener("click", guardarArr)
